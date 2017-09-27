@@ -22,6 +22,7 @@ public static async Task Run(TimerInfo myTimer, TraceWriter log)
     // subscription.MessageCountDetails, log);
     // }
     // }
+	//check if changes deployed automatically
 
     foreach(var queue in await namespaceManager.GetQueuesAsync())
     {
